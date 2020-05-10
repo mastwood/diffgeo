@@ -1,0 +1,109 @@
+\documentclass{article}
+
+
+% ---------------- Packages ----------------------------
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{caption}
+\captionsetup{belowskip=-30pt}
+\usepackage{graphicx} %Provides colour functionality
+\usepackage{xcolor}
+\usepackage{listings} %Provides extra list stuff
+\usepackage{enumitem}
+\usepackage{bbm}
+\usepackage{physics}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{csquotes}
+\usepackage{tikz}
+\usepackage[allowlitunits]{siunitx}
+\usepackage{xspace}
+\usepackage{pgfplots}
+\usepackage[UKenglish]{babel}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage{mathpazo}
+\usepackage{index}
+\bibliography{bib}
+% ------------------------------------------------------
+
+% ----------------- Title Page -----------------------------
+\title{Differential Topology and Geometry\\ With Applications to Physics}
+\author{Michael Astwood}
+
+\titleformat{\paragraph}{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+% ------------------------------------------------------
+
+
+% ---------------- Environments ----------------------
+\setcounter{secnumdepth}{4}
+\newtheorem{exercise}{Exercise}[section]
+% --------------------------------------------------------
+
+%---------------------- Commands ------------------------------------
+\DeclareMathOperator{\Col}{\textrm{Col}}
+\DeclareMathOperator{\Nul}{\textrm{Nul}}
+\DeclareMathOperator{\nul}{\textrm{null}}
+\DeclareMathOperator{\sgn}{\textrm{sgn}}
+\DeclareMathOperator{\diag}{\textrm{diag}}
+\DeclareMathOperator{\GL}{\textrm{GL}}
+\DeclareMathOperator{\extr}{\textrm{d}}
+\DeclareMathOperator{\D}{\textrm{D}}
+
+\DeclareMathOperator{\Bb}{\mathcal{B}}
+\DeclareMathOperator{\Cc}{\mathcal{C}}
+\DeclareMathOperator{\Hh}{{\mathcal{H}}}
+\DeclareMathOperator{\Rr}{{\mathcal{R}}}
+\DeclareMathOperator{\Dd}{\mathcal{D}}
+
+\DeclareMathOperator{\NN}{\mathbb{N}}
+\DeclareMathOperator{\RR}{\mathbb{R}}
+\DeclareMathOperator{\II}{\mathbb{I}}
+\DeclareMathOperator{\PP}{\mathbb{P}}
+\DeclareMathOperator{\ZZ}{\mathbb{Z}}
+\DeclareMathOperator{\CC}{\mathbb{C}}
+\DeclareMathOperator{\QQ}{\mathbb{Q}}
+\DeclareMathOperator{\TT}{\mathbb{T}}
+\DeclareMathOperator{\HH}{\mathbb{H}}
+\DeclareMathOperator{\KK}{\mathbb{K}}
+\DeclareMathOperator{\One}{\mathbbm{1}}
+
+\DeclareMathOperator{\gl}{\mathfrak{gl}}
+\DeclareMathOperator{\gg}{\mathfrak{g}}
+\DeclareMathOperator{\hh}{\mathbfrak{h}}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\renewcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\renewcommand{\grad}{\textrm{grad}}
+\renewcommand{\div}{\textrm{div}}
+\renewcommand{\curl}{\textrm{curl}}
+
+\newcommand{\innprod}[2]{\left\rangle #1 , #2 \right\rangle}
+\newcommand{\intprod}{\mathbin{\! \hbox{\vrule height0.3pt width5pt depth 0.2pt \vrule height5pt width0.4pt depth 0.2pt}}}
+\newcommand{\ma}[1]{\begin{bmatrix}#1\end{bmatrix}}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+%----------------------------------------------------------------------
+
+
+\begin{document}
+\maketitle
+
+
+\nocite{*}
+\printbibliography
+\end{document}
+
+
+
+
+
+
+
